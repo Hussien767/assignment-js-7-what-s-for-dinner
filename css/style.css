@@ -1,0 +1,176 @@
+ul li{
+   list-style: none;
+}
+
+p{
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+
+
+nav .logo .nlogo i{
+    width: 50px;
+    height: 50px;
+    background-color: #FE4427;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    box-shadow: 2px 2px 2px gray;
+}
+
+nav .logo .ncont h1{
+    font-size: 24px;
+    margin: 0;
+}
+
+nav .logo .ncont span{
+    font-size: 14px;
+    color: #6a7282;
+}
+
+nav .collapse li i{
+    font-size: 20px;
+    margin-inline: 10px ;
+    margin-top: 15px;
+    color: #4A5565;
+    transition: 0.3s ease-in-out;
+}
+
+nav .collapse li i:hover{
+    color: #F54900;
+}
+
+nav .collapse li img{
+    width: 50px;
+    border-radius: 50%;
+    border: 2px solid #FFB4A8;
+    
+}
+
+#hero{
+    padding-block: 120px;  
+}
+
+
+#hero .himg img{
+    height: 450px;
+    border-radius: 15px;
+}
+
+#hero .himg .cimg{
+    top: 81%;
+    left: 10%;
+    gap: 30px;
+    background-color: white;
+    padding: 8px 30px;
+    border-radius: 15px;
+    
+}
+
+#hero .himg .cimg .icon span{
+    font-size: 14px;
+    color: #6a7282;
+     margin: 2px;
+}
+
+#hero .himg .cimg .icon p{
+    font-size: 16px;
+   
+}
+
+#hero .himg .cimg .icon i{
+    font-size: 20px;
+    margin-inline: 10px;
+}
+
+#hero .himg .cimg .icon i.fa-clock{
+    color: #FF6900;
+}
+
+#hero .himg .cimg .icon i.fa-fire-burner{
+    color: #FB2C36;
+}
+#hero .himg .cimg .icon i.fa-users{
+    color: #2B7FFF;
+}
+
+#hero .icons a{
+    background-color: #FFEDD4;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+    color: #F54900;
+    transition: 0.3s ease-in-out;
+}
+
+#hero .icons a:hover{
+    background-color: #FFD6A7;
+}
+
+#hero .tab-pane .list{
+    background-color: #FFFAEC;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+#hero .tab-pane .list p{
+    margin-block: 10px;
+    font-size: 16px;
+    color: #364153;
+}
+
+
+#hero .tab-pane .list p span{
+    margin: 5px;
+    padding: 3px;
+    background-color: #FF6900;
+    border-radius: 50%;
+}
+
+#hero .tab-pane .list2 p{
+    margin-block: 30px;
+}
+
+#hero .tab-pane .list2 span{
+    background-color: #F54900;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 12px;
+}
+
+#hero .tab-pane .icons .item{
+    margin-block: 20px;
+    background-color: #F9FAFB;
+    border-radius: 12px;
+    padding: 4px;
+}
+
+
+#hero .nav-item button{
+    color: #F54900;
+}
+
+
+button.mvp{
+    background-color: #F44600;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    margin: 10px;
+    padding: 10px 15px;
+    transition: 0.3s ease-in-out;
+}
+
+button.mvp:hover{
+    background-color: #FC3630;
+    transform: scale(1.1);
+}
